@@ -2,7 +2,12 @@ body{
 
     font-family: 'poppins', sans-serif;
 }
+.download{
 
+    color:#00abd3;
+    font-size:45px;
+    font-weight: 500;
+}
 
 .topWrap .uppermostnav > ul > li {
     line-height: 40px;
@@ -20,16 +25,7 @@ margin-bottom: 0;
     
     }
 
-    @media (max-width: 1023px) and (min-width: 800px){
-    .responsive_menu .uppermostnav {
-        display: block;
-        float: center;
-    }
-    @media (max-width: 1023px) and (min-width: 800px){
-.main, .container {
-    width: 95%;
-}
-    }
+  
     .responsive_menu .uppermostnav > ul > li{
 
         float: right !important;
@@ -40,39 +36,7 @@ margin-bottom: 0;
 }
     }
 
-    @media (max-width: 1167px) and (min-width: 1024px){
-.main, .container {
-    width: 95%;
-}
-    }
-
-    @media (max-width: 1279px) and (min-width: 1168px){
-.main, .container {
-    width: 95%;
-}
-    }
-    @media (max-width: 799px) and (min-width: 480px){
-
-        .responsive_menu .uppermostnav {
-            display: block;
-            float: center;
-        }
-        .responsive_menu .uppermostnav > ul > li{
-    
-            float: right !important;
-    }
-    .responsive_menu .uppermostnav > ul > li a{
-    
-        border: none;
-    }
-
-    }
-
-    @media (max-width: 799px) and (min-width: 480px){
-.main, .container {
-    width: 90%;
-    margin: 0 auto;
-}
+   
 .main.cont{
     display: flex;
     flex-wrap: wrap;
@@ -507,4 +471,48 @@ h2{
         font-size:15px;
 
     }
+}
+  @media (max-width: 1023px) and (min-width: 800px){
+    .responsive_menu .uppermostnav {
+        display: block;
+        float: center;
+    }
+    @media (max-width: 1023px) and (min-width: 800px){
+.main, .container {
+    width: 95%;
+}
+    }
+
+     @media (max-width: 1167px) and (min-width: 1024px){
+.main, .container {
+    width: 95%;
+}
+    }
+
+    @media (max-width: 1279px) and (min-width: 1168px){
+.main, .container {
+    width: 95%;
+}
+    }
+    @media (max-width: 799px) and (min-width: 480px){
+
+        .responsive_menu .uppermostnav {
+            display: block;
+            float: center;
+        }
+        .responsive_menu .uppermostnav > ul > li{
+    
+            float: right !important;
+    }
+    .responsive_menu .uppermostnav > ul > li a{
+    
+        border: none;
+    }
+
+    }
+
+    @media (max-width: 799px) and (min-width: 480px){
+.main, .container {
+    width: 90%;
+    margin: 0 auto;
 }

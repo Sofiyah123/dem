@@ -2189,7 +2189,7 @@ section.masonry[data-columns="4"] .thumb{ margin:0;}
 }
 .post .sc_image img{ max-width: 100%; display:block; margin:0; padding:0; float:none;}
 .post .sc_image figcaption{ background: transparent; color:#777777; text-align:center; font-style:italic; }
-.post_content h1 { font-size: 40px; line-height: 52px;}
+.post_content h1 { font-size: 30px; line-height: 52px;}
 
 .post p { padding:0 0 30px 0; margin:0; }
 .post ol, .post ul { margin:0 0 30px 10px; padding:0;}
@@ -6374,3 +6374,34 @@ div.facebook .pp_nav p.currentTextHolder {line-height: 22px;}
 div.facebook .pp_social {display: none;}
 div.facebook .pp_description {padding-bottom: 0;}
 
+@media (max-width:480px){
+
+    .download{
+    color: #00abd3;
+    /*font-size: 25px !important;*/
+    font-weight: 200; 
+    }
+
+    
+}
+@media (max-width:580px){
+
+	.display{
+
+    	display:flex;
+    	padding-left: 4em;
+    	    /*flex-wrap: nowrap;*/
+    }
+    b{
+    	line-height: 3em;
+    	font-size: 15px;
+}
+
+.post_content h1 {
+    font-size: 20px;
+    line-height: 40px;
+	}
+}
+
+
+/*}*/
